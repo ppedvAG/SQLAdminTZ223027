@@ -3,6 +3,14 @@ Agent: eig Dienst  mit eig Konto
 
 Jobs, Aufträge, Zeitpläne, Warnungen, Operatoren, Email
 
+Was man wissen sollte
+ DOM\sqlAgent
+
+ Backup um 2:30 auf C:\Backup    --NT service\sqlagent
+ Backup um 2:30 auf \\NAS\Backup --DOM\sqlAgent
+
+ Lokale Standardordner des SQL Server haben keine Vererbung aktiv
+
 /*
 
 Agent
@@ -14,7 +22,7 @@ Jobs per Zeitplan
 Jobs bestehen aus einen oder mehreren Schritten
 bei Erfolg bei Fehler bei Beendigung
 
---Bei Jobs emfiehlt es sich Testzeitpläne zu erstellen (typ einmal)
+--Bei Jobs emfiehlt es sich Testzeitpläne zu erstellen (Typ einmal)
 --diese werden nach Ausführung automatisch deaktiviert
 
 
@@ -51,9 +59,9 @@ exec sp_sendDBmail [GMX-profile]
 
 Öfftl Profil  (mitlgied der Rolle msdb/DatabaseMailUserRole)
 
---der Operator bekommt aber noch keineMail nach Abschluss eines Auftrags!
+--der Operator bekommt aber noch keine Mail nach Abschluss eines Auftrags!
 
--1 Agent muss ein Mailprofil zugewiesen bekommen
+--1 Agent muss ein Mailprofil zugewiesen bekommen
 --Eigeschaften des Agents--> Warnungsystem--> Mailprofil aktivieren Profil zuweisen
 
 --2 Agent neu starten

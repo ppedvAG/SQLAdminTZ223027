@@ -26,6 +26,19 @@
  ## Datentypen, ref Integrität, Primärschlüssel, Fremdschlüssel
 
 
+ # Agent
+ ## Jobs Zeitpläne, Benachrichtigung
+ ## Emailsystem
+ ## Operatoren
+
+
+# Backup
+## Recoverymodel
+## Backuptypen
+## Fallstudien und Planung 
+## Restore mit Fragmentsicherung
+## Trennen und Anfügen eine DB
+
 
 
 
