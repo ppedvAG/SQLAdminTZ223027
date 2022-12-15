@@ -39,6 +39,17 @@
 ## Restore mit Fragmentsicherung
 ## Trennen und Anfügen eine DB
 
+# Security
+## Logins vs User
+## Schema
+## Server und DB Rollen
+## Gast und public
+## Besitzverkettung
+## Anwendungsrolle
+## Proxykonto
+## Vorteil und Nachteil von Sichten 
+
+
 
 
 

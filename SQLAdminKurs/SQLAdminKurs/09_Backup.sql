@@ -229,3 +229,31 @@ GO
 
 
  V TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTxTTTTTTTTTTTTTTTTTTTTDTTTTTT
+
+ --!! Verwende nie eine!! Datei für alle Sicherungen
+
+ --Ideal: Wartrungplan
+
+ /*
+ Ausfallzeit: 15min
+ Datenverlust: 0 --> Hochverfügbarkeit (AVG, Spiegelung)
+ DAtenverlust: 	10min
+
+ DB Größe: 50GB
+
+ MO - FR 6 bis 20 Uhr
+
+ V:	 täglich Mo bis Fr 22 Uhr
+ T:  10min Mo bis Fr von 6:10 bis 20:10
+ D:  alle 30min	 Mo bis Fr von 6:35  bis 20:06
+
+
+ T 90Sek
+ V 300
+
+
+
+
+
+ */
+
