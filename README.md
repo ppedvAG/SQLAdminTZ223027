@@ -50,6 +50,23 @@
 ## Vorteil und Nachteil von Sichten 
 
 
+## ContainedDB
+
+## Verwaiste User
+
+
+# Monitoring
+## Systemsichten
+## os_wait_stats
+## Profiler und Perfmon
+## Aktivitätstmonitor
+## Datensammler
+
+
+
+
+
+
 
 
 

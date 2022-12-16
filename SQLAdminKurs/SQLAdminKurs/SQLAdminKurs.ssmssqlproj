@@ -3,8 +3,32 @@
   <Items>
     <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="KAIRO:KAIRO\Administrator">
+        <ConnectionNode Name="KAIRO:">
           <Created>2022-12-12T11:07:10.7646089+01:00</Created>
+          <Type>SQL</Type>
+          <Server>KAIRO</Server>
+          <UserName />
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="KAIRO:">
+          <Created>2022-12-16T09:10:29.5022019+01:00</Created>
+          <Type>SQL</Type>
+          <Server>KAIRO</Server>
+          <UserName />
+          <Authentication>SQL</Authentication>
+          <InitialDB>whoamiDB</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="KAIRO:KAIRO\Administrator">
+          <Created>2022-12-16T12:48:11.0778301+01:00</Created>
           <Type>SQL</Type>
           <Server>KAIRO</Server>
           <UserName />
@@ -15,12 +39,12 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="KAIRO\SQL2022:KAIRO\Administrator">
+        <ConnectionNode Name="KAIRO\SQL2022:">
           <Created>2022-12-12T09:02:14.9427272+01:00</Created>
           <Type>SQL</Type>
           <Server>KAIRO\SQL2022</Server>
           <UserName />
-          <Authentication>Windows-Authentifizierung</Authentication>
+          <Authentication>SQL</Authentication>
           <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
@@ -145,16 +169,71 @@
           <AssociatedConnUserName />
           <FullPath>10_Security.sql</FullPath>
         </FileNode>
+        <FileNode Name="10b_verwaisteUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10b_verwaisteUser.sql</FullPath>
+        </FileNode>
         <FileNode Name="11_Proxykontoe.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11_Proxykontoe.sql</FullPath>
         </FileNode>
+        <FileNode Name="12_ContainedDatabase.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_ContainedDatabase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Richtlinien.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_Richtlinien.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Audit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Diagnostic_View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_Diagnostic_View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_sp_help_revlogin.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="PerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonVorlage.xml</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
